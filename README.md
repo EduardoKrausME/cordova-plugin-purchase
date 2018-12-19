@@ -26,22 +26,11 @@ It lets you handle all platforms with a single codebase.
 cordova plugin add cordova-plugin-purchase
 ```
 
-Need android too?
-
-```sh
-cordova plugin add cordova-plugin-purchase  --variable BILLING_KEY="<BILLING_KEY>"
-```
-
 ### Install the plugin (PhoneGap Build)
 
 ```xml
 <gap:plugin name="cordova-plugin-purchase" source="npm" version="6.0.0" />
 ```
-
-### Setup your Application
-
-See [Setup iOS Applications](https://github.com/j3k0/cordova-plugin-purchase/wiki/HOWTO#setup-ios-applications) and [Setup Android Applications](https://github.com/j3k0/cordova-plugin-purchase/wiki/HOWTO#setup-android-applications).
-
 ### Features
 
  - consumable purchases (e.g. virtual currencies)
@@ -54,9 +43,6 @@ See [Setup iOS Applications](https://github.com/j3k0/cordova-plugin-purchase/wik
 ### Supported platforms
 
  - **iOS** version 6.0 or higher.
- - **Android** version 2.2 (API level 8) or higher
-   - with Google Play client version 3.9.16 or higher
- - **Windows** Store/Phone 8.1 or higher
 
 ## Extensions
 
