@@ -14,7 +14,7 @@ Need professional help and support? [Contact us](mailto:contact@fovea.cc)!
 
 ## Summary
 
-This plugin allows **In-App Purchases** to be made from **Cordova and PhoneGap** applications, on **Android**, **iOS** and **Windows** (Store/Phone)
+This plugin allows **In-App Purchases** to be made from **Cordova and PhoneGap** applications **iOS**
 
 It lets you handle all platforms with a single codebase.
 
@@ -32,20 +32,10 @@ Need android too?
 cordova plugin add cordova-plugin-purchase  --variable BILLING_KEY="<BILLING_KEY>"
 ```
 
-Check [here](https://github.com/j3k0/cordova-plugin-purchase/wiki/HOWTO#add-android-billing-key) for details on how to retrieve the billing key (or public key).
-
 ### Install the plugin (PhoneGap Build)
 
 ```xml
 <gap:plugin name="cordova-plugin-purchase" source="npm" version="6.0.0" />
-```
-
-For Android:
-
-```xml
-<gap:plugin name="cordova-plugin-purchase" source="npm" version="6.0.0">
-   <param name="BILLING_KEY" value="MIIB...."/>
-</gap:plugin>
 ```
 
 ### Setup your Application
