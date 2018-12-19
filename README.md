@@ -23,13 +23,13 @@ It lets you handle all platforms with a single codebase.
 ### Install the plugin (cordova)
 
 ```sh
-cordova plugin add cc.fovea.cordova.purchase
+cordova plugin add cordova-plugin-purchase
 ```
 
 Need android too?
 
 ```sh
-cordova plugin add cc.fovea.cordova.purchase  --variable BILLING_KEY="<BILLING_KEY>"
+cordova plugin add cordova-plugin-purchase  --variable BILLING_KEY="<BILLING_KEY>"
 ```
 
 Check [here](https://github.com/j3k0/cordova-plugin-purchase/wiki/HOWTO#add-android-billing-key) for details on how to retrieve the billing key (or public key).
@@ -37,13 +37,13 @@ Check [here](https://github.com/j3k0/cordova-plugin-purchase/wiki/HOWTO#add-andr
 ### Install the plugin (PhoneGap Build)
 
 ```xml
-<gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" />
+<gap:plugin name="cordova-plugin-purchase" source="npm" version="6.0.0" />
 ```
 
 For Android:
 
 ```xml
-<gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
+<gap:plugin name="cordova-plugin-purchase" source="npm" version="6.0.0">
    <param name="BILLING_KEY" value="MIIB...."/>
 </gap:plugin>
 ```
